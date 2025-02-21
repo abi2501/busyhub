@@ -25,7 +25,7 @@ function BannerOverlay() {
                 <div className="flex flex-wrap flex-row space-x-1">
                   <h4>Weekends</h4>
                   <img
-                    className="w-5 h-5 pt-2 object-contain"
+                    className="w-5 h-5 object-contain"
                     src={info}
                     alt="info"
                   />
