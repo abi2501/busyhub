@@ -159,7 +159,7 @@ export const courseContent = [
 
 const learnersDatalist = [
   {
-    imgSrc: "./public/assets/images/profile/profile.png",
+    imgSrc: `${process.env.PUBLIC_URL}/assets/images/profile/profile.png`,
     name: "Ramesh",
     role: "Full Stack QA Engineer",
     content:
