@@ -157,9 +157,12 @@ export const courseContent = [
   },
 ];
 
+// const p = import.meta.env.VITE_REACT_APP_IMAGE_PATH;
+// console.log(config.imagePath);
+
 const learnersDatalist = [
   {
-    imgSrc: `${process.env.PUBLIC_URL}/assets/images/profile/profile.png`,
+    imgSrc: "/assets/images/profile/profile.png",
     name: "Ramesh",
     role: "Full Stack QA Engineer",
     content:
@@ -167,7 +170,7 @@ const learnersDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/public/assets/images/profile/profile1.png",
+    imgSrc: "assets/images/profile/profile1.png",
     name: "Hari",
     role: "Testing Engineer",
     content:
@@ -175,7 +178,7 @@ const learnersDatalist = [
     date: "May 2020",
   },
   {
-    imgSrc: "/public/assets/images/profile/profile.png",
+    imgSrc: "/assets/images/profile/profile.png",
     name: "Sowmya",
     role: "QA Support",
     content:
