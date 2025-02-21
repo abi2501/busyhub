@@ -9,7 +9,7 @@ function BannerOverlay() {
 
       {/* <!-- Content to overlay --> */}
       <div className="absolute inset-0 flex items-center justify-center text-white z-20 right-0 bottom-0 top-55">
-        <div className="w-2/4 bg-white p-8  rounded-lg shadow-lg">
+        <div className="w-2/4 flex flex-wrap flex-col bg-white p-8  rounded-lg shadow-lg">
           <div className="flex flex-wrap justify-evenly">
             <div className="flex flex-wrap flex-col space-y-2">
               <p>Course Duration</p>
@@ -17,12 +17,19 @@ function BannerOverlay() {
                 <div className="flex flex-wrap flex-row space-x-1">
                   <h4>Weekdays</h4>
                   <img
-                    className="w-4 h-4 pt-2 object-contain"
+                    className="w-5 h- object-contain"
                     src={info}
                     alt="info"
                   />
                 </div>
-                <h4>Weekends</h4>
+                <div className="flex flex-wrap flex-row space-x-1">
+                  <h4>Weekends</h4>
+                  <img
+                    className="w-5 h-5 pt-2 object-contain"
+                    src={info}
+                    alt="info"
+                  />
+                </div>
               </div>
             </div>
             <div className="flex flex-wrap flex-col space-y-2">
