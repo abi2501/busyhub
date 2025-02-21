@@ -186,7 +186,7 @@ const learnersDatalist = [
     date: "June 2020",
   },
   {
-    imgSrc: "/public/assets/images/profile/profile1.png",
+    imgSrc: "/assets/images/profile/profile1.png",
     name: "Sugan",
     role: "Senior Developer",
     content:
@@ -213,7 +213,7 @@ export const tutorSliderData = {
 
 const metorsDatalist = [
   {
-    imgSrc: "/public/assets/images/profile/avatar.png",
+    imgSrc: "/assets/images/profile/avatar.png",
     name: "Ayyamuthu Archunan",
     role: "",
     content:
@@ -221,7 +221,7 @@ const metorsDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/public/assets/images/profile/avatar.png",
+    imgSrc: "/assets/images/profile/avatar.png",
     name: "Karthick",
     role: "",
     content:
@@ -229,7 +229,7 @@ const metorsDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/public/assets/images/profile/avatar.png",
+    imgSrc: "/assets/images/profile/avatar.png",
     name: "Jeevan",
     role: "",
     content:
@@ -237,7 +237,7 @@ const metorsDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/public/assets/images/profile/avatar.png",
+    imgSrc: "/assets/images/profile/avatar.png",
     name: "Ravi",
     role: "",
     content:
