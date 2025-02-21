@@ -12,7 +12,11 @@ function TickListBox({ data, isVertical }) {
               key={idx}
               className={`flex flex-row ${isVertical ? "" : "mr-5"}`}
             >
-              <img className="object-full w-10 h-10" src={tick}></img>
+              <img
+                className="object-full w-10 h-10"
+                src={tick}
+                alt="tick"
+              ></img>
               <p className="py-3">{txt}</p>
             </li>
           );

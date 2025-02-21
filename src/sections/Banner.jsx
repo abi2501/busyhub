@@ -48,11 +48,19 @@ function Banner() {
               </div>
               <div className="flex flex-row pt-5 space-x-3">
                 <div className="flex flex-wrap flex-row space-x-2">
-                  <img src={share} className="w-5 h-5 object-contain" />
+                  <img
+                    src={share}
+                    className="w-5 h-5 object-contain"
+                    alt="share"
+                  />
                   <h2 className="text-white">Share</h2>
                 </div>
                 <div className="flex flex-wrap flex-row space-x-2">
-                  <img src={globe} className="w-5 h-5 object-contain" />
+                  <img
+                    src={globe}
+                    className="w-5 h-5 object-contain"
+                    alt="language"
+                  />
                   <h2 className="text-white">English</h2>
                 </div>
               </div>

@@ -27,11 +27,15 @@ function CourseAccordionItem({ state, title, datalist, isList }) {
         <div className="flex flex-row gap-3 space-x-10">
           {isList && (
             <div className="flex flex-wrap flex-row space-x-2">
-              <img className="w-6 h-6 object-cover" src={videolist} />
+              <img
+                className="w-6 h-6 object-cover"
+                src={videolist}
+                alt="play"
+              />
               <p>2 Weeks</p>
             </div>
           )}
-          <img className="w-7 h-7 object-cover" src={arrow} />
+          <img className="w-7 h-7 object-cover" src={arrow} alt="arrow" />
         </div>
       </button>
 
@@ -45,7 +49,7 @@ function CourseAccordionItem({ state, title, datalist, isList }) {
                     key={idx}
                     className="flex flex-row space-x-2 space-y-2 cursor-pointer"
                   >
-                    <img className="w-6 h-6" src={playarrow}></img>
+                    <img className="w-6 h-6" src={playarrow} alt="arrow"></img>
                     <p>{item}</p>
                   </li>
                 );

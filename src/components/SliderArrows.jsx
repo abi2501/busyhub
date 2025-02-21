@@ -18,6 +18,7 @@ function SliderPrevArrow({ onClick }) {
       className="w-10 h-10 object-contain cursor-pointer"
       src={arrowprev}
       onClick={onClick}
+      alt="Slider"
     />
   );
 }

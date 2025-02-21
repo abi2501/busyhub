@@ -7,7 +7,7 @@ function Navbar() {
     <header className="w-full ">
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap justify-between max-w-screen-xl px-4 mx-auto">
-          <img src={logo} />
+          <img src={logo} alt="busyhublogo" />
           <div className="flex flex-wrap">
             <a className="px-3 py-2">Tutor Registration</a>
             <ButtonPrimary label={"Signup"}></ButtonPrimary>

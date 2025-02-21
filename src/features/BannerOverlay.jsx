@@ -16,7 +16,11 @@ function BannerOverlay() {
               <div className="flex flex-row justify-between space-x-2">
                 <div className="flex flex-wrap flex-row space-x-1">
                   <h4>Weekdays</h4>
-                  <img className="w-4 h-4 pt-2 object-contain" src={info} />
+                  <img
+                    className="w-4 h-4 pt-2 object-contain"
+                    src={info}
+                    alt="info"
+                  />
                 </div>
                 <h4>Weekends</h4>
               </div>

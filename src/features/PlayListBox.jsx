@@ -46,7 +46,11 @@ function PlayListBox() {
             {keyInclusions.items.map((txt, idx) => {
               return (
                 <li key={idx} className="flex flex-row space-x-2">
-                  <img className="object-full w-5 h-5" src={roudedTick}></img>
+                  <img
+                    className="object-full w-5 h-5"
+                    src={roudedTick}
+                    alt="tick"
+                  ></img>
                   <p className="">{txt}</p>
                 </li>
               );
@@ -57,11 +61,19 @@ function PlayListBox() {
           <div className="flex flex-wrap flex-row justify-between">
             <div className="flex flex-wrap flex-col space-y-2">
               <div className="flex flex-wrap flex-row space-x-2">
-                <img src={share} className="w-4 h-4 object-contain" />
+                <img
+                  src={share}
+                  className="w-4 h-4 object-contain"
+                  alt="share"
+                />
                 <h5>Share</h5>
               </div>
               <div className="flex flex-wrap flex-row space-x-2">
-                <img src={globe} className="w-4 h-4 object-contain" />
+                <img
+                  src={globe}
+                  className="w-4 h-4 object-contain"
+                  alt="english"
+                />
                 <h5>English</h5>
               </div>
             </div>
@@ -81,7 +93,7 @@ function PlayListBox() {
         </div>
       </div>
       <div className="flex flex-wrap flex-col p-5 mx-15">
-        <img src={download} className="object-contain" />
+        <img src={download} className="object-contain" alt="download" />
       </div>
     </>
   );

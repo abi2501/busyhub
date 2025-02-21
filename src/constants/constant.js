@@ -40,6 +40,24 @@ export const badgeOfHonour = {
   ],
 };
 
+export const promo = [
+  {
+    imgsrc: "/assets/images/promo/Group 523.png",
+    title: "100% Job Guarantee",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    imgsrc: "/assets/images/promo/Group 524.png",
+    title: "Money Back Guarantee",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    imgsrc: "/assets/images/promo/Group 526.png",
+    title: "Career Guideline",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+];
+
 const techTools = import.meta.glob("/src/assets/images/tech/*.png", {
   eager: true,
 });
@@ -156,9 +174,6 @@ export const courseContent = [
     ],
   },
 ];
-
-// const p = import.meta.env.VITE_REACT_APP_IMAGE_PATH;
-// console.log(config.imagePath);
 
 const learnersDatalist = [
   {

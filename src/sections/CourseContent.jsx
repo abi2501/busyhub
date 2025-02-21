@@ -27,6 +27,7 @@ function CourseContent() {
             >
               <a className="flex flex-row ">
                 <img
+                  alt="download"
                   src={download}
                   className="w-10 h-10  object-contain"
                   style={{ backgroundColor: "#41B98E" }}

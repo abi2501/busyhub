@@ -1,25 +1,6 @@
 import React from "react";
-import job from "./../assets/images/promo/Group 523.png";
-import money from "./../assets/images/promo/Group 524.png";
-import career from "./../assets/images/promo/Group 526.png";
 
-const promo = [
-  {
-    imgsrc: job,
-    title: "100% Job Guarantee",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    imgsrc: money,
-    title: "Money Back Guarantee",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    imgsrc: career,
-    title: "Career Guideline",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-];
+import { promo } from "../constants/constant";
 
 function Promotions() {
   return (

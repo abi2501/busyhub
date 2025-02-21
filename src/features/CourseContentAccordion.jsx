@@ -58,7 +58,7 @@ function CourseContentAccordion() {
             onClick={() => handleMoreCourseContent(false)}
           >
             <p style={{ color: "#12A9EA" }}>More Syllabus</p>
-            <img className="object-center" src={bluearrow} />
+            <img className="object-center" src={bluearrow} alt="arrow" />
           </button>
         </div>
       </div>
