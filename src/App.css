@@ -52,6 +52,7 @@
     font-weight: normal;
     color: var(--text-content-grey);
     line-height: 24px;
+    
   }
 
 
@@ -61,3 +62,4 @@
   background: rgb(0,62,139);
   background: linear-gradient(90deg, rgba(0,62,139,1) 0%, rgba(0,114,148,1) 0%, rgba(1,110,139,1) 35%);
 }
+

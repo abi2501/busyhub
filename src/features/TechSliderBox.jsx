@@ -9,6 +9,8 @@ function TechSliderBox() {
         title="Programming  Languages and Tools Covered"
         isTitle={true}
         imageSrcList={techToolsImagesSrc}
+        norow={1}
+        noslides={3}
       />
     </div>
   );

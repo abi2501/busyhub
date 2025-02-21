@@ -3,6 +3,8 @@ import React from "react";
 import download from "./../assets/images/download.png";
 import { courseFeatures } from "../constants/constant";
 
+import CourseContentAccordion from "../features/CourseContentAccordion";
+
 function CourseContent() {
   return (
     <div className="w-3/4 flex flex-wrap flex-col py-5">
@@ -37,7 +39,7 @@ function CourseContent() {
       </div>
 
       {/* <!--------------------------------------------- Section 2 ---------------------------------------------> */}
-      <div className="flex flex-wrap flex-col py-10">
+      <div className="flex flex-wrap flex-col pt-10">
         <div className="grid grid-cols-4 gap-5">
           {courseFeatures.map((feature, idx) => {
             return (
@@ -54,6 +56,11 @@ function CourseContent() {
             );
           })}
         </div>
+      </div>
+
+      {/* <!--------------------------------------------- Section 3 ---------------------------------------------> */}
+      <div className="flex flex-wrap flex-col pt-10">
+        <CourseContentAccordion />
       </div>
     </div>
   );

@@ -1,10 +1,7 @@
 import React from "react";
 import TickListBox from "../components/TickListBox";
-import { minEligibility, topSkills } from "../constants/constant";
-
+import { topSkills } from "../constants/constant";
 import SkillsList from "../features/SkillsList";
-import SlickSlider from "../components/SlickSlider";
-import TechSliderBox from "../features/TechSliderBox";
 import PlayListBox from "../features/PlayListBox";
 
 function TopSkills() {

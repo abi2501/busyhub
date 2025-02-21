@@ -66,7 +66,6 @@ function PlayListBox() {
               </div>
             </div>
             <div className="flex flex-wrap flex-col space-y-1">
-              {/* <div className="flex flex-wrap flex-row space-x-2">               */}
               <h5>Course Fee</h5>
               <span
                 className="text-red-500 fw-bold"
@@ -74,7 +73,6 @@ function PlayListBox() {
               >
                 ₹35,000
               </span>
-              {/* </div> */}
             </div>
           </div>
         </div>

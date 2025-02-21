@@ -4,19 +4,20 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SliderNextArrow, SliderPrevArrow } from "./SliderArrows";
 
-const settings = {
-  className: "center",
-  centerMode: true,
-  infinite: true,
-  centerPadding: "60px",
-  slidesToShow: 3,
-  speed: 500,
-  rows: 1,
-  slidesPerRow: 2,
-};
-
-function SlickSlider({ isTitle, title, imageSrcList }) {
+function SlickSlider({ isTitle, title, imageSrcList, norow, noslides }) {
   const sliderRef = useRef(null);
+
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "60px",
+    slidesToShow: noslides,
+    speed: 500,
+    rows: norow,
+    slidesPerRow: 2,
+  };
+
   const header = isTitle ? <h1>{title}</h1> : <p>{title}</p>;
   return (
     <>
@@ -32,7 +33,7 @@ function SlickSlider({ isTitle, title, imageSrcList }) {
           {imageSrcList.map((imgsrc, index) => (
             <div
               key={index}
-              className="w-full flex items-center justify-center"
+              className="w-full flex items-center justify-center pb-5"
             >
               <img
                 src={imgsrc}
