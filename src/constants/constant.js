@@ -159,7 +159,7 @@ export const courseContent = [
 
 const learnersDatalist = [
   {
-    imgSrc: "./../assets/images/profile/profile.png",
+    imgSrc: "/public/assets/images/profile/profile.png",
     name: "Ramesh",
     role: "Full Stack QA Engineer",
     content:
@@ -167,7 +167,7 @@ const learnersDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/src/assets/images/profile/profile1.png",
+    imgSrc: "/public/assets/images/profile/profile1.png",
     name: "Hari",
     role: "Testing Engineer",
     content:
@@ -175,7 +175,7 @@ const learnersDatalist = [
     date: "May 2020",
   },
   {
-    imgSrc: "/src/assets/images/profile/profile.png",
+    imgSrc: "/public/assets/images/profile/profile.png",
     name: "Sowmya",
     role: "QA Support",
     content:
@@ -183,7 +183,7 @@ const learnersDatalist = [
     date: "June 2020",
   },
   {
-    imgSrc: "/src/assets/images/profile/profile1.png",
+    imgSrc: "/public/assets/images/profile/profile1.png",
     name: "Sugan",
     role: "Senior Developer",
     content:
@@ -210,7 +210,7 @@ export const tutorSliderData = {
 
 const metorsDatalist = [
   {
-    imgSrc: "/src/assets/images/profile/avatar.png",
+    imgSrc: "/public/assets/images/profile/avatar.png",
     name: "Ayyamuthu Archunan",
     role: "",
     content:
@@ -218,7 +218,7 @@ const metorsDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/src/assets/images/profile/avatar.png",
+    imgSrc: "/public/assets/images/profile/avatar.png",
     name: "Karthick",
     role: "",
     content:
@@ -226,7 +226,7 @@ const metorsDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/src/assets/images/profile/avatar.png",
+    imgSrc: "/public/assets/images/profile/avatar.png",
     name: "Jeevan",
     role: "",
     content:
@@ -234,7 +234,7 @@ const metorsDatalist = [
     date: "Feb 2020",
   },
   {
-    imgSrc: "/src/assets/images/profile/avatar.png",
+    imgSrc: "/public/assets/images/profile/avatar.png",
     name: "Ravi",
     role: "",
     content:
